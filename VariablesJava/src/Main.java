@@ -2,7 +2,7 @@
 
 public class Main {
 
-//    ## Exercises
+//    ## Exercises from javaSE learning
 //
 //1. Create a small program that defines some fields. Try creating some
 //    illegal field names and see what kind of error the compiler produces.
@@ -37,6 +37,7 @@ public class Main {
         int numeroCuatro = 4; // valid and common good practice
         int numero5 = 5; // valid
 
+        //
         // ❌ Invalid field names (will cause compile-time errors)
         // int 2cool = 10;         // Error: cannot start with a digit
         // String class = "Math";  // Error: 'class' is a reserved keyword
@@ -49,5 +50,7 @@ public class Main {
         Main main = new Main();
         main.showUninitializedVariable();
         main.showUninitializedLocalVariable();
+
+
     }
 }
